@@ -1,30 +1,19 @@
 # blog
 
-> this is a blog
+> 新博客，以后相关的技术文章会持续更新...
 
-## Build Setup
+## 起因
 
-``` bash
-# install dependencies
-npm install
+起因是想要练习一下NodeJS和Vue的整套生态系统，看着别人的博客，也看着自己热血沸腾。于是就有了想要做博客的念头。
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 关于技术选型
 
-# build for production with minification
-npm run build
+再谈一些技术选型的想法吧！
 
-# build for production and view the bundle analyzer report
-npm run build --report
+使用Vue，主要是由于自己比较熟悉，为了开发速度而做的选择，并且在我看来几种MVVM框架之间并没有大的不同。
 
-# run unit tests
-npm run unit
+使用Express，社区足够活泛，相应的中间件在社区中也足够健全。
 
-# run e2e tests
-npm run e2e
+使用Mysql，主要是因为对NoSql的数据库不是很熟悉，我理解意义上的NoSql主要还是在数据缓存上有较大的优势。
 
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+使用Css预处理语言Sass，觉得这个也是比较成熟的。

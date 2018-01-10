@@ -5,18 +5,22 @@
 </template>
 
 <script>
+// css reset
+// import './assets/scss/reset.sass'
+
+// Action Modal
+import ActionModal from './components/common/ActionModal'
+// Loading
+import Loading from './components/common/Loading'
+// Message Modal
+import MsgModal from './components/common/MsgModal'
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {ActionModal, Loading, MsgModal},
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>

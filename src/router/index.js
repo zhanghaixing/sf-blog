@@ -1,19 +1,21 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
-/******************************* Common Start ***************************************/
 
-
-
-/******************************* Common End   ***************************************/
+// user
+import Login from '../components/user/Login'
 
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
-      component: Hello
+      component: Login,
+    },
+    {
+      path: '/login',
+      component: Login,
     }
   ]
 })

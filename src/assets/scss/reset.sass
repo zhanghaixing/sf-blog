@@ -1,0 +1,63 @@
+/*
+ *	Author: yangshaofeng;
+ *	Version: v1.1.0
+ *	Email: yangshaofengfe@gmail.com;
+ *	createTime: 2017-06-24;
+ */
+
+/* 改变盒模型计算方式 */
+* {
+	box-sizing: border-box;
+  font-family: "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+
+body {
+  font-size: 14px;
+}
+
+/* 初始化页面元素的默认样式 */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* 取消*号 */
+ul {
+	list-style: none;
+}
+
+/* 清除浮动 */
+.clearfix:after{
+  content:".";
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden
+}
+.clearfix{
+  *+height:1%;
+}
+
+/* 浮动 */
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
